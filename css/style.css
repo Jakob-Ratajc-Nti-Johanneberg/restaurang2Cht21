@@ -113,8 +113,9 @@
 
 #body3{
   background-image: url(/img/unnamed.jpg);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
 }
 
 #meny_bak, #om_oss_bak{
@@ -152,6 +153,7 @@
   background-image:url(/img/nav.background.jpg);
   height: 70px;
   background-position: center;
+  margin: 0;
   position: sticky;
   display: flex;
   justify-content: space-evenly;
@@ -216,6 +218,7 @@
   transition-duration: 0.3s;
 }
 
+
 #main_body {
   margin: 0px;
   padding: 0px;
@@ -233,8 +236,9 @@
 }
 
 #logga{
-    width: 600px;
-    margin-left: calc(50% - 300px);
+    width: 800px;
+    margin-left: calc(50% - 400px );
+
 }
 
 #textlogga{
